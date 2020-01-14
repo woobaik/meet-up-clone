@@ -1,6 +1,8 @@
 import React, { Fragment } from 'react';
 import { Grid } from 'semantic-ui-react';
 import { EventList } from './EventList'
+import DateCalendar from './calendar'
+
 
 export const EventDashBoard = () => {
     return (
@@ -11,7 +13,7 @@ export const EventDashBoard = () => {
                         <EventList />
                     </Grid.Column>
                     <Grid.Column width={6}>
-                        right column
+                        <DateCalendar />
                     </Grid.Column>
                 </Grid.Row>
             </Grid>

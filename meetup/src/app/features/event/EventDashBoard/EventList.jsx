@@ -1,16 +1,26 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import { Segment } from 'semantic-ui-react'
 import EventItem from './EventItem'
 
 export const EventList = () => {
     return (
-        <Segment.Group>
-            <Segment><EventItem /></Segment>
-            <Segment>EVENT2</Segment>
-            <Segment>EVENT3</Segment>
-            <Segment>EVENT4</Segment>
-        </Segment.Group>
+        <Fragment>
+            <div>
+                TUESDAY, JANUARY 14
+            </div>
+            <Segment.Group>
+                <Segment><EventItem /></Segment>
+                <Segment><EventItem /></Segment>
+            </Segment.Group>
 
+            <div>
+                TUESDAY, JANUARY 16
+            </div>
+            <Segment.Group>
+                <Segment><EventItem /></Segment>
+                <Segment><EventItem /></Segment>
+            </Segment.Group>
+        </Fragment>
     )
 }
 
