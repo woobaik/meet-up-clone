@@ -1,0 +1,10 @@
+#header {
+ margin-top: 0;
+ padding: 4rem;
+ background-color: #0A455D;
+ color: white;
+ font-size: 2rem;
+ display: flex;
+ justify-content: center;
+ letter-spacing: 0.1rem;
+}

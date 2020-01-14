@@ -1,0 +1,32 @@
+.EventItem {
+    display: flex;
+}
+
+.gray-font {
+    color: rgba(0,0,0,0.54);
+}
+
+.event-item-time {
+    font-size: 1.2rem;
+    margin-right: 14px;
+}
+
+
+
+.event-item-detail {
+    
+
+}
+
+.event-item-host {
+    font-weight: bold;
+}
+
+.event-item-title {
+    font-weight: bold;   
+    font-size: 20px;
+}
+
+.event-item-going {
+    font-size: 1.1rem;
+}
