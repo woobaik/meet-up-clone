@@ -19,6 +19,11 @@ const EventForm = () => {
                 <Calendar />
             </Form.Field>
             <Form.Field>
+                <label>Date</label>
+                <input type='date' />
+                <Calendar />
+            </Form.Field>
+            <Form.Field>
                 <Checkbox label='I agree to the Terms and Conditions' />
             </Form.Field>
 
