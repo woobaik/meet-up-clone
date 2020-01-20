@@ -5,25 +5,134 @@ import DateCalendar from './calendar'
 import Form from './EventForm'
 import './EventDashBoard.css'
 
+const events =
+    [
+        {
+            id: 1,
+            title: 'DanceHack 2020: Reality features TECH + DANCE Collaborations!',
+            time: '2017-10-04T20:24:30+00:00',
+            venue: 'Noisebridge',
+            hostBy: 'Free Code Camp',
+            atendee: [
+                {
+                    name: 'Alex Huesing',
+                    image: 'https://randomuser.me/api/portraits/thumb/men/75.jpg'
+
+                },
+                {
+                    name: 'Kari Rasmussen',
+                    image: 'https://randomuser.me/api/portraits/thumb/women/75.jpg'
+                },
+                {
+                    name: 'Alexander Alvarez',
+                    image: 'https://randomuser.me/api/portraits/thumb/women/25.jpg'
+                },
+                {
+                    name: 'Paul Kenji',
+                    image: 'https://randomuser.me/api/portraits/thumb/women/75.jpg'
+                }
+            ]
+        },
+
+        {
+            id: 2,
+            title: '101 Intro to Ableton Live -- All are Welcome! Bring Questions or Just Show Up.',
+            time: '2017-10-05T20:24:30+00:00',
+            venue: 'CounterPulse',
+            hostBy: 'KINETECH ARTS',
+            atendee: [
+                {
+                    name: 'Alex Huesing',
+                    image: 'https://randomuser.me/api/portraits/thumb/men/75.jpg'
+
+                },
+                {
+                    name: 'Kari Rasmussen',
+                    image: 'https://randomuser.me/api/portraits/thumb/women/75.jpg'
+                },
+                {
+                    name: 'Alexander Alvarez',
+                    image: 'https://randomuser.me/api/portraits/thumb/women/25.jpg'
+                },
+                {
+                    name: 'Paul Kenji',
+                    image: 'https://randomuser.me/api/portraits/thumb/women/75.jpg'
+                }
+            ]
+        }, {
+            id: 2,
+            title: '101 Intro to Ableton Live -- All are Welcome! Bring Questions or Just Show Up.',
+            time: '2017-10-05T20:24:30+00:00',
+            venue: 'CounterPulse',
+            hostBy: 'KINETECH ARTS',
+            atendee: [
+                {
+                    name: 'Alex Huesing',
+                    image: 'https://randomuser.me/api/portraits/thumb/men/75.jpg'
+
+                },
+                {
+                    name: 'Kari Rasmussen',
+                    image: 'https://randomuser.me/api/portraits/thumb/women/75.jpg'
+                },
+                {
+                    name: 'Alexander Alvarez',
+                    image: 'https://randomuser.me/api/portraits/thumb/women/25.jpg'
+                },
+                {
+                    name: 'Paul Kenji',
+                    image: 'https://randomuser.me/api/portraits/thumb/women/75.jpg'
+                }
+            ]
+        }, {
+            id: 2,
+            title: '101 Intro to Ableton Live -- All are Welcome! Bring Questions or Just Show Up.',
+            time: '2017-10-05T20:24:30+00:00',
+            venue: 'CounterPulse',
+            hostBy: 'KINETECH ARTS',
+            atendee: [
+                {
+                    name: 'Alex Huesing',
+                    image: 'https://randomuser.me/api/portraits/thumb/men/75.jpg'
+
+                },
+                {
+                    name: 'Kari Rasmussen',
+                    image: 'https://randomuser.me/api/portraits/thumb/women/75.jpg'
+                },
+                {
+                    name: 'Alexander Alvarez',
+                    image: 'https://randomuser.me/api/portraits/thumb/women/25.jpg'
+                },
+                {
+                    name: 'Paul Kenji',
+                    image: 'https://randomuser.me/api/portraits/thumb/women/75.jpg'
+                }
+            ]
+        }
+    ]
+
+
+
 export const EventDashBoard = () => {
     return (
         <Container>
             <Grid>
                 <Grid.Row>
                     <Grid.Column width={10}>
-                        <EventList />
+                        <EventList events={events} />
                     </Grid.Column>
                     <Grid.Column width={6}>
                         <DateCalendar />
                         <div className='new-group-btn'>
-                            <Modal trigger={<Button color='green' size='large' fluid>Start a new group</Button>}>
+                            <Modal trigger={<Button color='green' size='large' >Start a new group</Button>}>
                                 <Form />
                             </Modal>
                         </div>
                     </Grid.Column>
                 </Grid.Row>
             </Grid>
-            <Form />
+
         </Container>
     )
 }

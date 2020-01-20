@@ -1,9 +1,14 @@
 .today-container {
     text-align: right;
-    margin-right: 5rem;
+    
+}
+
+.calendar-container {
+    display: flex;
+    
+    justify-content: flex-end;
 }
 
 .today-button {
-    margin-bottom: 1rem !important;
-    
+    margin-bottom: 1rem !important;   
 }

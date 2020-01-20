@@ -11,20 +11,15 @@ const EventForm = () => {
                     <Form>
                         <Form.Field>
                             <label>Host</label>
-                            <input placeholder='Host' />
+                            <input placeholder='Host' name='hostBy' />
                         </Form.Field>
                         <Form.Field>
                             <label>Title</label>
-                            <input placeholder='Title' />
+                            <input placeholder='Title' name='title' />
                         </Form.Field>
                         <Form.Field>
                             <Calendar />
                         </Form.Field>
-                        <Form.Field>
-                            <label>Partipiciant</label>
-                            <input placeholder='particiants'></input>
-                        </Form.Field>
-
                         <Form.Field>
                             <Checkbox label='I agree to the Terms and Conditions' />
                         </Form.Field>
@@ -40,3 +35,4 @@ const EventForm = () => {
 
 
 export default EventForm
+

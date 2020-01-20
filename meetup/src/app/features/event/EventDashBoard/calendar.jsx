@@ -17,7 +17,9 @@ const DateCalendar = () => {
             <div className='today-container'>
                 <Button color='yellow' onClick={() => setDate(new Date())} className='today-button'>Today</Button>
             </div>
-            <Calendar value={date} onChange={handleChange} />
+            <div className='calendar-container'>
+                <Calendar value={date} onChange={handleChange} />
+            </div>
         </Fragment>
     )
 }
