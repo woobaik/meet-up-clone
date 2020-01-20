@@ -13,7 +13,7 @@ const events =
             time: '2017-10-04T20:24:30+00:00',
             venue: 'Noisebridge',
             hostBy: 'Free Code Camp',
-            atendee: [
+            attendee: [
                 {
                     name: 'Alex Huesing',
                     image: 'https://randomuser.me/api/portraits/thumb/men/75.jpg'
@@ -40,7 +40,7 @@ const events =
             time: '2017-10-05T14:24:30+00:00',
             venue: 'CounterPulse',
             hostBy: 'KINETECH ARTS',
-            atendee: [
+            attendee: [
                 {
                     name: 'Alex Huesing',
                     image: 'https://randomuser.me/api/portraits/thumb/men/75.jpg'
@@ -65,7 +65,7 @@ const events =
             time: '2017-10-05T00:11:30+00:00',
             venue: 'CounterPulse',
             hostBy: 'KINETECH ARTS',
-            atendee: [
+            attendee: [
                 {
                     name: 'Alex Huesing',
                     image: 'https://randomuser.me/api/portraits/thumb/men/75.jpg'
@@ -90,7 +90,7 @@ const events =
             time: '2017-10-05T10:30:30+00:00',
             venue: 'CounterPulse',
             hostBy: 'KINETECH ARTS',
-            atendee: [
+            attendee: [
                 {
                     name: 'Alex Huesing',
                     image: 'https://randomuser.me/api/portraits/thumb/men/75.jpg'

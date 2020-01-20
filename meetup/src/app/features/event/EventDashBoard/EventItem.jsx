@@ -16,15 +16,15 @@ const udtConvertToHuman = (time) => {
 }
 const EventItem = ({ event }) => {
 
-    console.log(udtConvertToHuman(event.time.split('T')[1]))
+    console.log(event)
 
     return (
         <div className='EventItem'>
             <div className='event-item-time gray-font '>{udtConvertToHuman(event.time.split('T')[1])} </div>
             <div className='event-item-detail'>
-                <div className='event-item-host gray-font m-b-half'>FREE CODE CAMP - BAY AREA</div>
-                <div className='event-item-title m-b-half'>Free Code Camp @ Noisebridge</div>
-                <div className='event-item-going gray-font m-b-half'>9 campers going</div>
+                <div className='event-item-host gray-font m-b-half'>{event.hostBy}</div>
+                <div className='event-item-title m-b-half'>{event.title} @{event.venue}</div>
+                <div className='event-item-going gray-font m-b-half'>{event.attendee.length} Campers Going</div>
             </div>
 
         </div>
