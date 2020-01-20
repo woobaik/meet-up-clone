@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import { Grid, Container, Button, Modal } from 'semantic-ui-react';
 import { EventList } from './EventList'
 import DateCalendar from './calendar'

@@ -4,7 +4,7 @@ import './EventItem.css'
 // need to convert time 
 const udtConvertToHuman = (time) => {
     let str = ''
-    const timeArray = time.split(':')
+
     const hour = parseInt(time.split(':')[0])
     let amOrPm = 'AM'
     if (hour >= 12) {
