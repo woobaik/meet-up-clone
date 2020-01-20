@@ -37,7 +37,7 @@ const events =
         {
             id: 2,
             title: '101 Intro to Ableton Live -- All are Welcome! Bring Questions or Just Show Up.',
-            time: '2017-10-05T20:24:30+00:00',
+            time: '2017-10-05T14:24:30+00:00',
             venue: 'CounterPulse',
             hostBy: 'KINETECH ARTS',
             atendee: [
@@ -60,9 +60,9 @@ const events =
                 }
             ]
         }, {
-            id: 2,
+            id: 3,
             title: '101 Intro to Ableton Live -- All are Welcome! Bring Questions or Just Show Up.',
-            time: '2017-10-05T20:24:30+00:00',
+            time: '2017-10-05T00:11:30+00:00',
             venue: 'CounterPulse',
             hostBy: 'KINETECH ARTS',
             atendee: [
@@ -85,9 +85,9 @@ const events =
                 }
             ]
         }, {
-            id: 2,
+            id: 4,
             title: '101 Intro to Ableton Live -- All are Welcome! Bring Questions or Just Show Up.',
-            time: '2017-10-05T20:24:30+00:00',
+            time: '2017-10-05T10:30:30+00:00',
             venue: 'CounterPulse',
             hostBy: 'KINETECH ARTS',
             atendee: [

@@ -36,7 +36,7 @@ export const EventList = ({ events }) => {
                             </div>
                             <Segment.Group>
                                 {eventGroup[date].map(event => {
-                                    return (<Segment><EventItem event={event} /></Segment>)
+                                    return (<Segment key={event.id}><EventItem event={event} /></Segment>)
                                 })}
                             </Segment.Group>
 
