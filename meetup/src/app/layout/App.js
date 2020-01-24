@@ -7,7 +7,7 @@ import PeopleDashboard from '../features/user/PeopleDashboard/PeopleDashboard'
 import UserDetailPage from '../features/user/userDetail/UserDetailPage'
 import SettingsDashboard from '../features/Settings/SettingDashboard'
 import EventForm from '../features//event/EventDashBoard/EventForm'
-import { Provider } from 'react-redux'
+
 import { Route } from 'react-router-dom'
 
 import Homepage from '../features/home/HomePage'
